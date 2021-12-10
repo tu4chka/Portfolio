@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+ body {
+    font-family: 'Monteserrat', sans-serif;
+    background-color: red ;
+    text-decoration: salmon;
+    background: linear-gradient(90deg rgb(117, 93, 36));
+    color: seashell;
+}
+ img { background-color: rgb(37, 56,98);
+        border-radius: 4rem;
+        width: 60px;
+}
+h1 { 
+    color: royalblue;
+    text-align: center;
+    font-size: 60px;
+}
+a {
+    color: rgb(21, 43,0);
+}
+table {
+    text-align: center;
+    font-size: 30px;
+}
+td:hover { 
+    background: linear-gradient(90deg, rgb(92, 30, 170), rgb(129, 63, 19));
+    border: dashed;
+}
+td {
+    border: solid;
+}
+th {
+    border: solid;
+}
+:hover {
+    width: 0px;
+    height: 0px;
+  }
