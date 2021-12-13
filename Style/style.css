@@ -98,6 +98,7 @@ h3{
     display: flex;
     justify-content: center;
 }
+
 .sprint{
     display: flex;
     border: 2px solid black;
@@ -106,3 +107,4 @@ h3{
     animation: border 5s infinite;
     transition: 0.3s;
 }
+
