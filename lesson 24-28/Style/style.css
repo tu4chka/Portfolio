@@ -1,7 +1,7 @@
 .container {
     width: 100%;
     max-width: 1440px;
-    flex: space-between;
+    /* flex: space-between; */
 }
 
 .header-inner {
@@ -49,6 +49,7 @@ img {
     font-size: 16px;
     line-height: 21px;
     /* identical to box height */
+    color: white;
 }
 
 .header-cash {
@@ -175,4 +176,54 @@ img {
 .nav {
     padding-left: 253px;
     margin-left: 70px;
+}
+
+.navi {
+    background-color: tomato;
+}
+
+.intro {
+    background: url("../img/maxresdefault\ \(1\)\ 2.png");
+    position: relative;
+    width: 1440px;
+    height: 490px;
+}
+
+.gradien {
+    background: url("../img/Rectangle\ 83.png");
+    width: 1440px;
+    height: 490px;
+    z-index: 0;
+    position: absolute;
+}
+
+.intro-inner {
+    position: relative;
+    padding-left: 199px;
+    padding-top: 100px;
+    z-index: 1;
+}
+
+.intro-text {
+    color: white;
+}
+
+.intro-title {
+    color: white;
+    font-size: 30px;
+    font-family: "Montserrat";
+    width: 725px;
+}
+
+.intro-visit {
+
+}
+
+.intro-tale {
+    width: 270px;
+    height: 60px;
+    color: white;
+    background: rgba(255, 255, 255, 0.25);
+    padding-left: 186px;
+    font-family: "Montserrat";
 }
