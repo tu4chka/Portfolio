@@ -301,3 +301,108 @@ img {
     align-items: center;
     padding: 8px;
 }
+
+.ap {
+    width: 100%;
+    padding-left: 198px;
+    padding-top: 90px;
+}
+
+.ap-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ap-cklik {
+    width: 240px;
+    height: 1px;
+    margin-left: 56px;
+    background: #C4C4C4;
+}
+
+.ap-text {
+    font-family: "Monserrat";
+    font-size: 45px;
+}
+
+.ap-tale {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #969696;
+    border: 1px solid #969696;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 140px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 35px;
+    margin-left: 61px;
+}
+
+.ap-center {
+    width: 324px;
+    /* background: url(../img/mandarina\ 2.png); */
+    position: relative;
+    height: 250px;
+    margin-top: 55px ;
+}
+
+.ap-pic {
+    position: relative;
+}
+
+.ap-pick {
+    position: absolute;
+}
+
+.ap-fat {
+    font-family: "Open Sans";   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    background: rgba(0, 0, 0, 0.35);;
+    color: white;
+    padding: 3px 15px;
+    position: absolute;
+}
+
+.ap-f {
+    background: #F8F8F8;;
+    width: 327px;
+    height: 480px;
+}
+
+.ap-fit {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    width: 249px;
+    height: 34px;
+    line-height: 34px;
+    padding-top: 220px;
+}
+
+.ap-fut {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    height: 34px;
+    color: #848484;
+    padding-top: 20px;
+}
+
+.ap-ft {
+    width: 280px;
+    height: 1px;
+    background: #E8E8E8;
+}
