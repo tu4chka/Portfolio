@@ -345,11 +345,16 @@ img {
     margin-left: 61px;
 }
 
+.ap-inner {
+    display: flex;
+    width: 100%;
+}
+
 .ap-center {
-    width: 324px;
+    width: 327px;
     /* background: url(../img/mandarina\ 2.png); */
     position: relative;
-    height: 250px;
+    height: 480px;
     margin-top: 55px ;
 }
 
@@ -375,7 +380,7 @@ img {
 
 .ap-f {
     background: #F8F8F8;;
-    width: 327px;
+    width: 295px;
     height: 480px;
 }
 
@@ -383,7 +388,7 @@ img {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     width: 249px;
     height: 34px;
     line-height: 34px;
@@ -394,7 +399,7 @@ img {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 34px;
     height: 34px;
     color: #848484;
@@ -404,5 +409,67 @@ img {
 .ap-ft {
     width: 280px;
     height: 1px;
+    margin-top: 36px;    
     background: #E8E8E8;
+}
+
+.ap-fi {
+    background: #F8F8F8;;
+    width: 295px;
+    height: 55px;   
+    display: flex;   
+}
+
+.ap-far {
+    font-family: "Suisse Int'l Trial";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+    color: #DD4053;
+    height: 34px;
+}
+
+.ap-fur {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #DD4053;
+    margin-left: 10px;
+}
+
+.ap-fis {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 34px;
+    color: #C9C9C9;
+    margin-top: 20px;
+    display: flex;
+}
+
+.ap-fiu {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 12px;
+    color: #3E3E3E;
+    width: 77px;
+    height: 36px;
+    
+}
+
+.ap-fut1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 34px;
+    height: 34px;
+    color: #848484;
+    padding-top: 20px;
 }
