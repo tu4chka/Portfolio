@@ -86,3 +86,74 @@ function begin12() {
     alert(`Диаметр= ${l/3.14}`)
     alert(`Длина окружности = ${3.14*d}`)
     }
+
+    function begin16() {
+     let x1 = Number(prompt('input number'))
+     let x2 = Number(prompt('input number'))
+     alert(`jkmok ${x1-x2}`)
+    }
+
+    function begin7 () {
+        let R = Number(prompt('input'))
+        alert(`L = ${2*3.14*R}`)
+        alert(`S = ${3.14*R**2}`)
+    }
+    function begin17() {
+        let x1 = Number(prompt('введите значение точки А по х'))
+        let y1 = Number(prompt('введите значение точки А по y'))
+        let x2 = Number(prompt('введите значение точки B по х'))
+        let y2 = Number(prompt('введите значение точки B по y'))
+        let x3 = Number(prompt('введите значение точки C по х'))
+        let y3 = Number(prompt('введите значение точки C по y'))
+        let m = ((x3-x1)**2+(y3-y1)**2)**0.5
+        let n = ((x3-x2)**2+(y3-y2)**2)**0.5
+        alert(`AC = ${((x3-x1)**2+(y3-y1)**2)**0.5}`)
+        alert(`BC = ${((x3-x2)**2+(y3-y2)**2)**0.5}`)
+        alert(`AC+BC = ${m+n}`)
+    }
+    function begin18() {
+        let x1 = Number(prompt('введите значение точки А по х'))
+        let y1 = Number(prompt('введите значение точки А по y'))
+        let x2 = Number(prompt('введите значение точки B по х'))
+        let y2 = Number(prompt('введите значение точки B по y'))
+        let x3 = (x1+x2)/2
+        let y3 = (y1+y2)/2
+        let m = ((x3-x1)**2+(y3-y1)**2)**0.5
+        let n = ((x3-x2)**2+(y3-y2)**2)**0.5
+        
+        alert(`AC = ${((x3-x1)**2+(y3-y1)**2)**0.5}`)
+        alert(`BC = ${((x3-x2)**2+(y3-y2)**2)**0.5}`)
+        alert(`AC*BC = ${m*n}`)
+    }
+    function begin19() {
+        let x1 = Number(prompt('введите значение точки А по х'))
+        let y1 = Number(prompt('введите значение точки А по y'))
+        let x2 = Number(prompt('введите значение точки B по х'))
+        let y2 = Number(prompt('введите значение точки B по y'))
+        let q = ((x2-x1)**2+(y2-y1)**2)**0.5
+        let m = 4
+        
+        alert(`P = ${2*(q+m)}`)
+        alert(`S = ${q*m}`)
+     
+    }
+    function begin20() {
+        let x1 = Number(prompt('введите значение точки А по х'))
+        let y1 = Number(prompt('введите значение точки А по y'))
+        let x2 = Number(prompt('введите значение точки B по х'))
+        let y2 = Number(prompt('введите значение точки B по y'))   
+        alert(`L = ${((x2-x1)**2+(y2-y1)**2)**0.5}`)
+    }
+    function begin21() {
+        let x1 = Number(prompt('введите значение точки А по х'))
+        let y1 = Number(prompt('введите значение точки А по y'))
+        let x2 = Number(prompt('введите значение точки B по х'))
+        let y2 = Number(prompt('введите значение точки B по y'))  
+        let x3 = Number(prompt('введите значение точки C по х'))
+        let y3 = Number(prompt('введите значение точки C по y')) 
+        let a = ((x2-x1)**2+(y2-y1)**2)**0.5
+        let b = ((x3-x2)**2+(y3-y2)**2)**0.5
+        let c = ((x3-x1)**2+(y3-y1)**2)**0.5
+        let p = (a+b+c)/2
+        alert(`S = ${(p*(p-a)*(p-b)*(p-c))**0.5}`)
+    }
